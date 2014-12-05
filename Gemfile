@@ -17,9 +17,19 @@ group :test do
 end
 
 group :development, :test do
+  gem 'rspec'
+  gem 'cucumber-rails'
+  gem 'guard-cucumber', '0.7.3'
+  gem 'database_cleaner'
+  gem 'rb-fsevent'
+  gem 'growl'
   gem 'minitest'
   gem 'sqlite3' , '1.3.10'
   gem 'rspec-rails', '2.13.1'
+  gem 'guard-rspec', '2.5.0'
+  gem 'spork-rails', '4.0.0'
+  gem 'guard-spork', '1.5.0'
+  gem 'childprocess', '0.3.6'
 end
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
