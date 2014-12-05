@@ -17,6 +17,7 @@ group :test do
 end
 
 group :development, :test do
+  gem 'minitest'
   gem 'sqlite3' , '1.3.10'
   gem 'rspec-rails', '2.13.1'
 end
