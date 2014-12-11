@@ -10,6 +10,7 @@ gem 'rails', '4.1.8'
 # Use sqlite3 as the database for Active Record
 
 gem 'bootstrap-sass', '2.3.2.0'
+gem 'bcrypt-ruby'
 
 group :test do
   gem 'selenium-webdriver', '2.35.1'
