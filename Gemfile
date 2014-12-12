@@ -16,13 +16,13 @@ group :test do
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara', '2.1.0'
   gem 'factory_girl_rails', '4.2.1'
+  gem 'cucumber-rails', '1.4.0', :require => false
+  gem 'database_cleaner', github: 'bmabey/database_cleaner'
 end
 
 group :development, :test do
   gem 'rspec'
-  gem 'cucumber-rails'
   gem 'guard-cucumber', '0.7.3'
-  gem 'database_cleaner'
   gem 'rb-fsevent'
   gem 'growl'
   gem 'minitest'
